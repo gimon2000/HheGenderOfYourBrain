@@ -14,6 +14,8 @@
 		E02A1E172CB2BB8E00604DC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02A1E152CB2BB8E00604DC6 /* LaunchScreen.storyboard */; };
 		E02A1E212CB30D1300604DC6 /* LocalizedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A1E202CB30D1300604DC6 /* LocalizedText.swift */; };
 		E02A1E272CB3100500604DC6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E02A1E292CB3100500604DC6 /* Localizable.strings */; };
+		E02A1E2E2CB7088300604DC6 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A1E2D2CB7088300604DC6 /* TestViewController.swift */; };
+		E02A1E302CBAFF4200604DC6 /* AnswerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02A1E2F2CBAFF4200604DC6 /* AnswerViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		E02A1E2A2CB310C300604DC6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		E02A1E2B2CB310C300604DC6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E02A1E2C2CB3120300604DC6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E02A1E2D2CB7088300604DC6 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		E02A1E2F2CBAFF4200604DC6 /* AnswerViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				E02A1E0A2CB2BB8D00604DC6 /* AppDelegate.swift */,
 				E02A1E0C2CB2BB8D00604DC6 /* SceneDelegate.swift */,
 				E02A1E0E2CB2BB8D00604DC6 /* StartViewController.swift */,
+				E02A1E2D2CB7088300604DC6 /* TestViewController.swift */,
+				E02A1E2F2CBAFF4200604DC6 /* AnswerViewCell.swift */,
 				E02A1E132CB2BB8E00604DC6 /* Assets.xcassets */,
 				E02A1E152CB2BB8E00604DC6 /* LaunchScreen.storyboard */,
 				E02A1E182CB2BB8E00604DC6 /* Info.plist */,
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02A1E2E2CB7088300604DC6 /* TestViewController.swift in Sources */,
 				E02A1E0F2CB2BB8D00604DC6 /* StartViewController.swift in Sources */,
 				E02A1E0B2CB2BB8D00604DC6 /* AppDelegate.swift in Sources */,
 				E02A1E212CB30D1300604DC6 /* LocalizedText.swift in Sources */,
+				E02A1E302CBAFF4200604DC6 /* AnswerViewCell.swift in Sources */,
 				E02A1E0D2CB2BB8D00604DC6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

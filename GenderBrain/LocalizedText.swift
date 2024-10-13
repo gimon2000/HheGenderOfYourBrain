@@ -13,4 +13,14 @@ enum LocalizedText {
         tableName: "Localizable",
         comment: "Text label"
     )
+    static let dismissButtonText = NSLocalizedString(
+        "TestViewController.dismiss.button",
+        tableName: "Localizable",
+        comment: "Text button"
+    )
+    static let tittleText = NSLocalizedString(
+        "TestViewController.tittle",
+        tableName: "Localizable",
+        comment: "Text tittle"
+    )
 }

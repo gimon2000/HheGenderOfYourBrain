@@ -7,7 +7,7 @@
 
 import UIKit
 
-class StartViewController: UIViewController {
+final class StartViewController: UIViewController {
     
     private lazy var descriptionText: UILabel = {
         let view = UILabel()
@@ -93,7 +93,10 @@ class StartViewController: UIViewController {
     }
     
     @objc private func clickButtonMan() {
-        
+        let testVC = TestViewController()
+        let navigationC = UINavigationController(rootViewController: testVC)
+        navigationC.modalPresentationStyle = .fullScreen
+        present(navigationC, animated: true)
     }
     
     @objc private func clickButtonWoman() {
